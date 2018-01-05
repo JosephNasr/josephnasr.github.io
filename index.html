@@ -1,4 +1,4 @@
-<html>
+<html oncontextmenu="return false">
   <head>
     <link rel="icon" href="JN%20AZBAT.png" />
     <style>
@@ -55,6 +55,14 @@
         
           d3.event.preventDefault();
         }
+      </script>
+      <script>
+        document.addEventListener('keydown', e => {
+          if (e.which === 123) {
+            e.preventDefault();
+            return false;
+          }
+        });
       </script>
   </body>
 </html>
