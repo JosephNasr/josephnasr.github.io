@@ -1,8 +1,22 @@
-<html oncontextmenu="return false">
+<html>
   <head>
     <link rel="icon" href="JN%20AZBAT.png" />
     <style>
-    </style>
+      body {
+        margin: 0;
+        background: #222;
+        min-width: 960px;
+        cursor: none;
+      }
+      rect {
+        fill: none;
+        pointer-events: all;
+      }
+      circle {
+        fill: none;
+        stroke-width: 2.5px;
+      }
+      </style>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <title>Joseph Nasr</title>
   </head>
@@ -40,14 +54,6 @@
         
           d3.event.preventDefault();
         }
-      </script>
-      <script>
-        document.addEventListener('keydown', e => {
-          if (e.which === 123) {
-            e.preventDefault();
-            return false;
-          }
-        });
       </script>
   </body>
 </html>
