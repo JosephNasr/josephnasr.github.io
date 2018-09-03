@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #222;
+    background-image: url('../images/bg.png');
     min-width: 960px;
     cursor: none;
 }
