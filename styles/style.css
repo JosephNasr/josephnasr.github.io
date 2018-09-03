@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background: #222;
+    min-width: 960px;
+    cursor: none;
+}
+
+rect {
+    fill: none;
+    pointer-events: all;
+}
+
+circle {
+    fill: none;
+    stroke-width: 2.5px;
+}
