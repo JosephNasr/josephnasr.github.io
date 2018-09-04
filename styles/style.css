@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-image: url('../images/bg.png');
+    /* background-image: url('../images/bg.png'); */
+    background: #222;
     min-width: 960px;
     cursor: none;
 }
