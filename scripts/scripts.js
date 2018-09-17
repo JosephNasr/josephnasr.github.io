@@ -19,13 +19,12 @@ window.onload = function () {
         let m = d3.mouse(this);
 
         svg.insert("text", "rect")
+            .html("SEND NUDES")
             .attr("x", m[0])
             .attr("y", m[1])
-            .html("SEND NUDES")
             .style("font-family", "'Josefin Sans'")
             .style("font-size", 1e-6)
             .style("fill", d3.hsl((i = (i + 1) % 360), 1, .5))
-            .style("stroke-opacity", 1)
             .transition()
             .duration(2000)
             .ease(Math.sqrt)
