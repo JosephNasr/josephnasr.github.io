@@ -16,7 +16,7 @@ window.onload = function () {
         let mousePosition = d3.mouse(this);
 
         svg.insert("text", "svg")
-            .html("Joseph Nasr")
+            .html("SEND NUDES")
             .attr("x", mousePosition[0])
             .attr("y", mousePosition[1])
             .style("user-select", "none")
