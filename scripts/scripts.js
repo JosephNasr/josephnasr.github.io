@@ -3,10 +3,10 @@ window.onload = function () {
     let height = Math.max(500, innerHeight);
 
     let svg = d3.select("body")
-                .append("svg")
-                .attr("width", width)
-                .attr("height", height)
-                .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
 
     let hue = 0;
     let saturation = 0;
