@@ -6,7 +6,7 @@ body {
     cursor: none;
 }
 
-rect {
+/* rect {
     fill: none;
     pointer-events: all;
 }
@@ -14,4 +14,4 @@ rect {
 circle {
     fill: none;
     stroke-width: 2.5px;
-}
+} */
