@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    /* background-image: url('../images/bg.png'); */
     background: #222;
     min-width: 960px;
     cursor: none;
 }
 
-/* rect {
+rect {
     fill: none;
     pointer-events: all;
 }
@@ -14,4 +13,4 @@ body {
 circle {
     fill: none;
     stroke-width: 2.5px;
-} */
+}
