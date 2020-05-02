@@ -4,7 +4,7 @@ window.onload = function () {
 
     let counter = 0;
 
-    var colors = ["white", "red", "orange", "yellow", "green", "blue", "purple", "blue", "green", "yellow", "orange"];
+    var colors = ["white", "red", "orange", "yellow", "green", "blue", "purple", "red", "orange", "yellow"];
     var currentIndex = 0;
 
     setInterval(function () {
