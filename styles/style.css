@@ -1,11 +1,21 @@
 body {
     margin: 0;
-    background: #222;
+    /* background: #222; */
     min-width: 960px;
-    cursor: none;
+    /* cursor: none; */
+    transition: background-color 2s cubic-bezier(1, 1, 1, 1);
+	transition-delay: 0s;
 }
 
-rect {
+.flex-center {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* rect {
     fill: none;
     pointer-events: all;
 }
@@ -13,4 +23,4 @@ rect {
 circle {
     fill: none;
     stroke-width: 2.5px;
-}
+} */
